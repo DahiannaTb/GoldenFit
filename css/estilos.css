@@ -1,0 +1,1306 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    scroll-behavior: smooth;
+}
+
+nav{
+    position: fixed;
+    background-color: rgb(15, 15, 15);
+    height: 4.5em;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+
+header{
+    background-image: url('../img/fondo.jpg');
+    width: 100%;
+    
+}
+
+
+
+nav .fila{
+    margin: 0 auto;
+    width: 95%;
+}
+
+nav .coltittle{
+    width: 45%;
+}
+
+nav .col{
+    display: inline-block;
+    vertical-align: top;
+}
+
+.izquierdo{
+    margin-top: 0.4em;
+}
+
+
+nav .menu{
+    text-align: right;
+    padding-left: 2em;
+    display: inline-block;
+    margin-left: 1.5em;
+    padding-top: 1.7em;
+    vertical-align: top;
+    width: 45%;
+}
+
+nav .logo{
+    width: 11%;
+}
+
+nav ul li{   
+    display: inline-block;
+    margin-right: 1.5em;
+    
+}
+
+nav ul li a{
+    
+    color: white;
+    text-decoration: none;
+    font-family: Helvetica, Arial, sans-serif;
+    letter-spacing: 2px;
+    font-size: 1em;
+}
+
+nav ul li a:hover{
+    color: #ffd207;
+    transition: 0.5s;
+    font-size: 1.3em;
+   
+}
+
+h1 {
+    color: white;
+    font-family: "Russo One", sans-serif;
+    font-size: 3em;
+    font-weight: 200;
+    font-style: normal;
+}
+
+span{
+    color: rgb(255, 213, 25);
+}
+
+.intro{
+    margin-left: 3em;
+    padding-bottom: 5em;
+    padding-top: 15em;
+    width: 50%;
+    
+}
+
+.uno{
+    margin-bottom: 1px;
+    color: rgb(255, 213, 25);
+    font-size: 1.5em;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.dos{
+    margin-bottom: 0.3em;
+    letter-spacing: 1px;
+    color: white;
+    font-size: 2.5em;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    
+}
+
+.dos h2{
+    text-align: left;
+}
+
+.tres{
+    font-size: 1.2em;
+    color:  rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    
+}
+
+/* font-family: "Questrial", sans-serif;
+font-weight: 300; */
+.franja{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.541);
+}
+
+.motivacion{
+    
+    padding-bottom: 2.3em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.motivacion p{
+    text-align: center;
+}
+
+.motivacion .col{
+    margin-top: 1.5em;
+    margin-left: 6em;
+    
+    display: inline-block;
+    width: 20%;
+    vertical-align: top;
+}
+
+.franja h2{
+    color: rgb(255, 255, 255);
+    font-size: 1.5em;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.franja p{
+    font-size: 1em;
+    color:  rgb(255, 255, 255);
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+    margin-top: 0.7em;
+}
+
+.numeros{
+    color: rgb(255, 213, 25);
+    font-size: 1em;
+}
+
+.seccion1{
+    background: linear-gradient(0deg, rgb(0, 0, 0), rgb(80, 79, 79));
+}
+
+
+
+.seccion1 .fila1{
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 3em;
+    
+}
+
+
+
+.tchiquito{
+    margin-top: 0.3em;
+}
+
+.seccion1 h2{
+    letter-spacing: 1px;
+    font-size: 2.2em;
+    font-family: "Alata", sans-serif;
+    text-align: center;
+    color: white;
+}
+
+.seccion1 .subtitulo{
+    font-size: 1.2em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    text-align: center;
+    color: white;
+}
+
+
+.filatexto{
+    padding-top: 2em;
+    margin: 0 auto;
+    padding-bottom: 4em;
+    width: 80%;
+}
+
+.coltexto{
+    text-align: left;
+    display: inline-block;
+   
+    width: 30%;
+    vertical-align: top;
+}
+
+.coltexto h2{
+    
+    text-align: left;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 1.3em;
+    color: rgb(255, 213, 25);
+}
+
+.coltexto p{
+    
+    margin-top: 1.2em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    line-height: 1.2em;
+    font-size: 1.1em;
+    text-align: left;
+}
+
+
+.button{
+    background: linear-gradient(0deg, rgb(59, 59, 59), rgb(255, 201, 51));
+    padding: 0.5em;
+    border: none;
+    color: white;
+    font-family: "Questrial", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.button:hover{
+    color: rgb(0, 0, 0);
+}
+
+.derecha{
+    margin-right: 1.5em;
+}
+
+.seccion2{
+    background-image: url('../img/fondo2.jpg');
+    padding-top: 5em;
+    padding-bottom: 5em;
+}
+
+.seccion2 .col{
+    color: rgb(0, 0, 0);
+    
+    text-align: center;
+}
+
+.seccion2 .fila{
+    padding: 2em;
+    margin: 0 auto;
+    width: 60%;
+    
+    background-color: rgba(255, 255, 255, 0.479);
+    border-radius: 20px;
+}
+
+.seccion2 h2{
+    font-size: 3em;
+    font-family: "Alata", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.seccion2 p{
+    margin-top: 0.5em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 1.2em;
+    line-height: 1.2em;
+}
+
+.seccion3{
+    background-color: rgb(14, 14, 14);
+}
+
+.seccion3 .fila{
+    padding-top: 3em;
+    
+    width: 93%;
+    padding-left: 3em;
+    padding-bottom: 2em;
+    margin: 0 auto;
+}
+
+.seccion3 .col{
+    
+    display: inline-block;
+    width: 45%;
+    vertical-align: top;
+}
+
+.seccion3 img{
+    border-radius: 100%;
+}
+
+.seccion3 .col2{
+    text-align: center;
+    margin-left: 3em;
+}
+
+.seccion3 h2{
+    color: rgb(255, 213, 25);
+    margin-bottom: 0.5em;
+    font-size: 2em;
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.seccion3 p{
+    color: white;
+    font-size: 1.2em;
+    margin-top: 0.5em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    line-height: 1.2em;
+}
+
+.seccionpack{
+    background-image: url('../img/seccionpack.webp');
+    width: 100%;
+    padding-top: 6em;
+    
+    
+}
+
+.seccionpack .filatitulo{
+    width: 80%;
+    
+    color: white;
+    margin: 0 auto;
+    padding-bottom: 3em;
+}
+
+.coltitulo h2{
+    text-align: center;
+    color: rgb(255, 255, 255);
+    margin-bottom: 0.2em;
+    font-size: 3.3em;
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.coltitulo p{
+    text-align: center;
+    color: white;
+    font-size: 1.2em;
+    
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+.filaprecios{
+    margin: 0 auto;
+    width: 60%;
+    
+    padding-bottom: 2em;
+    
+    
+}
+
+.filaprecios .col{
+    padding: 2em;
+    width: 30%;
+    
+    display: inline-block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    border-radius: 20px;
+    
+}
+
+.primera{
+    margin-right: 3em;
+    margin-left: 4em;
+}
+ 
+.filaprecios p{
+    color: rgb(175, 175, 175);
+    margin-bottom: 2em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    
+}
+
+h4{
+    margin-bottom: 0.5em;
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    color: rgb(136, 135, 135);    
+}
+
+.filaprecios .oscuro{
+    color: rgb(10, 10, 10);
+}
+
+.filaprecios h2{
+    font-size: 3em;
+    padding-bottom: 0.2em;
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.botonregistro{
+    padding: 1em 2em;
+    border: none;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    background: linear-gradient(0deg, #ffd207, rgb(255, 237, 157));
+    border-radius: 40px;
+    
+}
+
+.contactos{
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(27, 27, 27));
+    
+    
+}
+
+.contactos .fil1{
+    padding-top: 3em;
+    
+    margin-bottom: 1em;
+}
+
+.contactos .titu{
+    color: white;
+    text-align: center;
+    font-size: 1.6em;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.contactos .fil2{
+    
+    width: 60%;
+    margin: 0 auto;
+    padding-left: 2em;
+    padding-bottom: 3em;
+}
+
+.contactos .info{
+    text-align: center;
+    
+    display: inline-block;
+    width: 30%;
+    
+}
+
+.contactos .h2grande{
+    color: white;
+}
+
+.contactos h2{
+    color: rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.contactos p{
+    color: white;
+    margin-top: 0.5em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.ubicacion .fila{
+    width: 100%;
+}
+
+.ubicacion .mapa2{
+    display: none;
+}
+
+.ubicacion .mapa3{
+    display: none;
+}
+
+.ubicacion .col{
+    
+    width: 99.7%;
+}
+
+footer{
+    background-color: black;
+    padding: 2em 0em;
+    text-align: center;
+}
+
+footer i{
+    color: white;
+    font-size: 1.5em;
+    margin-right: 1em;
+}
+
+footer p{
+    color: white;
+    margin-top: 1em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.registroof{
+    padding-top: 4.5em;
+}
+
+.registroof .fila{
+    margin: 0 auto;
+    width: 79.8%;
+    margin-top: 2em;
+   
+    background-color: rgb(0, 0, 0);
+    
+    
+}
+
+.registroof .col{
+    vertical-align: top;
+    
+    width: 27%;
+    display: inline-block;
+}
+
+
+
+.registroof .mitad{
+    width: 44.7%;
+    text-align: center;
+}
+
+
+.discos{
+    max-width: 100%;
+}
+
+.colformulario{
+    
+    width: 90%;
+    
+    text-align: center;
+    margin: 0 auto;
+}
+
+.formulario{
+    display: block; /*alineación vertical*/
+    margin: 0 auto;
+    border: 1px rgb(150, 150, 150) solid;
+    padding: 0.8em 3em;
+    border-radius: 40px;
+    
+    
+}
+
+.mitad{
+    background-color: white;
+}
+
+.mitad h2{
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    font-size: 2em;
+    color: rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    
+}
+
+.mitad p{
+    margin-bottom: 1em;
+    line-height: 1.1em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+}
+
+.labeltext{
+    font-family: "Questrial", sans-serif;
+    font-weight: bold;
+    font-style: normal;
+    
+}
+
+#nombre , #correo , #mensaje , #telefono{
+    margin-top: 0.8em;
+    margin-bottom: 0.8em;
+}
+
+#boton{
+    margin-bottom: 1em;
+    font-family: "Questrial", sans-serif;
+    font-size: 1em;
+    border: none;
+    color: white;
+    padding: 0.7em 4em;
+    background: linear-gradient(70deg, rgb(255, 187, 0), rgb(255, 220, 124));
+}
+
+
+.registroof{
+    background-color: black;
+    width: 100%;
+    
+
+}
+
+.header2{
+    padding-top: 10em;
+    padding-bottom: 5em;
+    
+}
+
+.filaprecios1{
+    margin: 0 auto;
+    width: 80%;
+    padding-bottom: 3em;
+    background-color: rgba(0, 0, 0, 0.493);
+    backdrop-filter: blur(10px);
+   
+}
+
+.filaprecios1 .h2precios{
+    padding-top: 1em;
+    margin-bottom: 0.5em;
+    text-align: center;
+    font-size: 3em;
+    color: rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.filaprecios1 .parrafo{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+    text-align: center;
+    line-height: 1.2em;
+}
+
+.filaprecios1 .revisar{
+    text-align: center;
+}
+
+.collogos{
+    width: 48%;
+    display: inline-block;
+}
+
+.colcalendarios{
+    width: 60%;
+    margin: 0 auto;
+}
+
+#calendario{
+    margin-top: 1em;
+    margin-bottom: 0.2em;
+    font-size: 2em;
+    color: white;
+    
+}
+
+.colcalendarios p , h2{
+    text-align: center;
+}
+
+.colcalendarios h2{
+    font-size: 2em;
+    color: rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+
+}
+
+.colcalendarios p{
+    margin-top: 0.2em;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: white;
+}
+
+.fila2mensual{
+   
+    width: 80%;
+}
+
+.fila2mensual .col{
+    width: 25%;
+    display: inline-block;
+}
+
+
+.fila2mensual .primera{
+    margin-right: 1em;
+    margin-left: 1em;
+     
+}
+
+.fila2mensual .segunda{
+    margin-right: 1em;
+}
+
+.mensual{
+    background-image: none;
+    background: linear-gradient(70deg, rgb(53, 53, 53), rgb(5, 5, 5));
+    padding-top: 3em;
+}
+
+.anual{
+    background: none;
+    background: linear-gradient(70deg, rgb(0, 0, 0), rgb(107, 107, 107));
+
+}
+
+.botonregistro:hover{
+    color: rgb(255, 255, 255);
+}
+
+.enviado{
+    padding-top: 4.5em;
+    background-color: black;
+    padding-bottom: 6em;
+}
+
+.enviado .fila{
+    margin: 0 auto;
+    margin-top: 4em;
+    width: 80%;
+    padding:2em 0em;
+    background-color: white;
+}
+
+.enviado h2{
+    font-size: 3em;
+    margin-bottom: 0.5em;
+    color: rgb(255, 213, 25);
+    font-family: "Alata", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.enviado p{
+    font-size: 2em;
+    text-align: center;
+    font-family: "Questrial", sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    color: rgb(0, 0, 0);
+    margin-bottom: 0.6em;
+}
+
+.enviado i{
+    color: rgb(255, 213, 25);
+    font-size: 1.8em;
+}
+
+
+
+@media screen and (min-width:600px) and (max-width:901px) {
+    
+    header{
+        background-image: url('../img/headertablet.jpg');
+        width: 100%;
+        
+    }
+
+    nav{
+        padding-bottom: 4em;
+    }
+
+    nav .coltittle , .menu{
+        display: block;
+    }
+
+    nav .coltittle{
+        padding-top: 0.5em;
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    nav .menu{
+        padding-top: 1em;
+        margin: 0 auto;
+        width: 97%;
+        text-align: center;
+        
+        
+    }
+
+    nav .logo{
+        width: 15%;
+    }
+
+    .intro{
+        width: 80%;
+    }
+
+
+    .motivacion .col{
+        margin-top: 1.5em;
+        margin-left: 1em;
+        display: inline-block;
+        width: 30%;
+        vertical-align: top;
+    }
+
+    .motivacion p{
+        text-align: center;
+    }
+
+    .seccion2{
+        background-image: url('../img/seccion2tablet.jpg');
+        padding-top: 5em;
+        padding-bottom: 5em;
+    }
+
+
+    .seccion2 .fila{
+        width: 80%;
+    }
+
+    .seccion3 .largo{
+        font-size: 1em;
+        margin-left: 2em;
+    }
+
+    .seccionpack{
+        background-image: url('../img/seccionpacktablet.jpg');
+        width: 100%;
+        padding-top: 2em;
+        
+        
+    }
+
+    .seccionpack .filatitulo{
+        padding-bottom: 2em;
+        width: 90%;
+    }
+
+    .coltitulo h2{
+        font-size: 3em;
+    }
+
+    .filaprecios{
+        width: 90%;
+    }
+
+    .filaprecios .col{
+        padding: 1em;
+        width: 35%;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        
+    }
+
+    .filaprecios h2{
+        font-size: 2em;
+        
+    }
+
+    .filaprecios p{
+        margin-bottom: 1em;
+    }
+
+    .contactos .fil2{
+        width: 80%;
+        
+    }
+    
+    .contactos .info{
+        text-align: center; 
+        display: inline-block;
+        width: 30%;
+        
+    }
+
+    .ubicacion .mapa{
+        display: none;
+    }
+
+    .ubicacion .mapa3{
+        display: none;
+    }
+
+    .ubicacion .mapa2{
+        display: flex;
+        
+    }
+
+    .filaprecios1 .parrafo{
+        font-size: 1.1em;
+        margin-bottom: 1em;
+        font-family: "Questrial", sans-serif;
+        font-weight: 300;
+        font-style: normal;
+        color: white;
+        text-align: center;
+        line-height: 1.2em;
+    }
+
+    .filaprecios1{
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .fila2mensual .col{
+        width: 25%;
+        display: inline-block;
+    }
+
+    .header2{
+        padding-top: 10em;
+        padding-bottom: 3em;
+        
+    }
+
+    .discos{
+        display: none;
+    }
+
+    .registroof{
+        padding-top: 8em;
+        padding-bottom: 2em;
+    }
+
+    .enviado{
+        padding-bottom: 3em;
+    }
+
+    .enviado .fila{
+        padding-left: 1em;
+        padding-right: 1em;
+        margin-top: 8em;
+    }
+
+    
+
+    
+
+    
+
+  
+
+}
+
+@media screen and (max-width:601px) {
+    header{
+        background-image: url('../img/fondocelular.jpg');
+        width: 100%;
+        padding-top: 10em;
+    }
+
+    nav{
+        padding-bottom: 4em;
+    }
+
+    nav .coltittle , .menu{
+        display: block;
+    }
+
+    nav .coltittle{
+        padding-top: 0.5em;
+        width: 73%;
+        margin: 0 auto;
+    }
+
+    nav .menu{
+        padding-top: 1em;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+        
+        
+    }
+
+    nav .logo{
+        width: 15%;
+    }
+
+    nav ul li{   
+        display: inline-block;
+        margin-right: 1em;
+        
+    }
+    
+    nav ul li a{
+        
+        color: white;
+        text-decoration: none;
+        font-family: Helvetica, Arial, sans-serif;
+        letter-spacing: 2px;
+        font-size: 0.9em;
+    }
+
+    nav ul li a:hover{
+        color: #ffd207;
+        transition: 0.5s;
+        font-size: 1.1em;
+       
+    }
+
+    .intro{
+        margin-left: 2em;
+        width: 90%;
+        padding-top: 2em;
+        padding-bottom: 2em;
+    }
+
+    .uno{
+        font-size: 1.2em;   
+    }
+    
+    .dos{
+        color: white;
+        font-size: 2em;
+        margin-top: 0.8em;  
+        margin-bottom: 0.8em;  
+    }
+    
+    .tres{
+        font-size: 1.1em;
+        
+    }
+
+    .motivacion .col{
+        margin-top: 1.5em;
+        margin-left: 1em;
+        display: inline-block;
+        width: 25%;
+        vertical-align: top;
+    }
+    .motivacion p{
+        text-align: center;
+    }
+
+    .seccion1 .fila1{
+        width: 90%;
+        padding-top: 1em;
+    }
+
+    .seccion1 .coltexto{
+        background-color: rgba(0, 0, 0, 0.329);
+        margin: 0 auto;
+        width: 80%;
+        display: block;
+        text-align: center;
+        padding: 1em 1em;
+    }
+
+    .seccion1 h2{
+        font-size: 2em;
+        text-align: center;
+    }
+
+    .seccion1 p{
+        text-align: center;
+    }
+
+    .seccion2 .fila{
+        width: 80%;
+    }
+
+    .seccion2 h2{
+        font-size: 2em;
+    }
+
+    .seccion3 .fila{
+        padding-left: 1em;
+        width: 90%;
+    }
+
+    .seccion3 .col{
+        margin: 0 auto;
+        display: block;
+        width: 80%;
+    }
+
+    .seccion3 .largo{
+        text-align: center;
+        margin-bottom: 1em;
+    }
+
+    .seccionpack{
+        padding-top: 2em;
+    }
+
+    .seccionpack .filatitulo{
+        width: 90%;
+        padding-bottom: 2em;
+    }
+
+    .coltitulo h2{
+        font-size: 2.4em;
+    }
+
+    .coltitulo p{
+        font-size: 1.2em;
+    }
+
+    .seccionpack .filaprecios{
+        width: 90%;
+    }
+
+    .filaprecios .col{
+        padding: 1em;
+        width: 40%;
+        display: inline-block;
+        text-align: center;
+        background-color: rgb(255, 255, 255);
+        border-radius: 20px;
+        
+    }
+
+    .primera{
+        margin-right: 1em;
+        margin-left: 1em;
+    }
+     
+
+    .filaprecios h2{
+        font-size: 2em;
+        
+    }
+
+    .filaprecios p{
+        margin-bottom: 1em;
+    }
+
+    .contactos .fil1{
+        padding-top: 1em;
+    }
+
+    .titu h2{
+        font-size: 1.3em;
+    }
+
+    .contactos .fil2{
+        width: 90%;
+        padding-bottom: 1em;
+        
+    }
+    
+    .contactos .info{
+        text-align: center; 
+        display: inline-block;
+        width: 30%;
+        
+    }
+
+    .info .correog{
+        font-size: 0.9em;
+    }
+
+    .ubicacion .mapa{
+        display: none;
+    }
+
+    .ubicacion .mapa2{
+        display: none;
+    }
+
+    .ubicacion .mapa3{
+        display: flex;
+    }
+
+    .filaprecios1{
+        width: 90%;
+        padding-left: 1em;
+        padding-right: 1em;
+    }
+
+    .filaprecios1 .h2precios{
+        font-size: 2em;
+    }
+
+    .filaprecios1 .parrafo{
+        font-size: 1em;
+    }
+
+    #calendario{
+        font-size: 1.5em;
+    }
+
+    .colcalendarios h2{
+        font-size: 1.7em;
+    }
+    
+    .colcalendarios p{
+        font-size: 1em;
+    }
+
+    .header2{
+        padding-bottom: 1em;
+    }
+
+    .mensual .fila2mensual{
+        width: 90%;
+    }
+
+    .fila2mensual .col{
+        display: block;
+        width: 50%;
+        margin: 0 auto;
+        margin-bottom: 1em;
+    }
+
+    .discos{
+        display: none;
+    }
+
+    .registroof .mitad{
+        width: 80%;
+        padding-left: 1em;
+        padding-right: 1em;
+        margin: 0 auto;
+    }
+
+    .registroof{
+        padding-top: 7em;
+        padding-bottom: 2em;
+    } 
+
+    .registroof .fila{
+        padding-left: 2em;
+    }
+    
+    .enviado{
+        padding-top: 8em;
+    }
+
+    .enviado h2{
+        font-size: 2em;
+    }
+
+    .enviado p{
+        font-size: 1.5em;
+    }
+
+}
+
